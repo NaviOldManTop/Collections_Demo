@@ -12,6 +12,7 @@
 
 from mylib.menu import *
 from mylib.tuples_demo import *
+from mylib.sets_demo import *
 
 if __name__ == '__main__':
     # 1
@@ -31,7 +32,10 @@ if __name__ == '__main__':
                 tuples_unpack_demo()
 
             elif k == 2:
-                pass
+                create_sets()
+                sets_operations()
+                sets_methods()
+
             elif k == 3:
                 pass
             elif k == 4:
